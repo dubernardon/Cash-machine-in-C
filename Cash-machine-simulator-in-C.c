@@ -251,7 +251,7 @@ separate();
   }
 }
 //account stats.
-void account(struct account a){
+void account(struct account d){
   delay();
 
   separate();
@@ -274,7 +274,7 @@ void end(){
 
 int main(void) {
 int select=0;
- struct account a;
+ struct account d;
 
 inputaccount(&a);
 
